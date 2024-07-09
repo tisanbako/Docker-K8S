@@ -1,6 +1,6 @@
 ![Simple Docker Workflow!](https://github.com/tisanbako/Docker-K8S/blob/main/images/docker-flow.gif) 
 
-##𝐀 𝐒𝐢𝐦𝐩𝐥𝐞 𝐃𝐨𝐜𝐤𝐞𝐫 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 🐳
+𝐀 𝐒𝐢𝐦𝐩𝐥𝐞 𝐃𝐨𝐜𝐤𝐞𝐫 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 🐳
 
 - 𝟏. 𝐂𝐫𝐞𝐚𝐭𝐞 𝐚 𝐃𝐨𝐜𝐤𝐞𝐫𝐟𝐢𝐥𝐞: Write a Dockerfile to define your application's environment. This file includes instructions on how to set up the container, including the base image, dependencies, and startup commands.
 - 𝟐. 𝐁𝐮𝐢𝐥𝐝 𝐭𝐡𝐞 𝐈𝐦𝐚𝐠𝐞: Use the 𝐝𝐨𝐜𝐤𝐞𝐫 𝐛𝐮𝐢𝐥𝐝 command to create an image from your Dockerfile. This image encapsulates your application and its dependencies.
