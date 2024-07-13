@@ -1,0 +1,19 @@
+#the first spec is for replica controller which makes sure we have the same number of pods that we specify
+#and the second spec is for the pod specification
+apiVersion: v1
+kind: ReplicationController 
+metadata: 
+  name: nginx-rc 
+  labels: 
+    env: demo 
+spec: 
+  template: 
+    metadata: 
+      labels: 
+        env: demo 
+      name: nginx 
+    spec: 
+      containers: 
+      - image: nginx
+        name: nginx  
+  

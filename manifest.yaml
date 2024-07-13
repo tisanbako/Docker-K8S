@@ -1,0 +1,15 @@
+#this is a deployment
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod2
+  labels:
+    env: demo 
+    type: frontend
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+    ports:
+    - containerPort: 80 
