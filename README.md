@@ -7,9 +7,13 @@
 - 𝟑. 𝐏𝐮𝐬𝐡 𝐭𝐡𝐞 𝐈𝐦𝐚𝐠𝐞:Push your Docker images to a registry like DockerHub, making it easy to share and deploy your application in any environment.
 - 𝟒. 𝐏𝐮𝐥𝐥 𝐚𝐧𝐝 𝐔𝐬𝐞:To use the shared image, pull it from the registry with the 𝐝𝐨𝐜𝐤𝐞𝐫 𝐩𝐮𝐥𝐥 command. This allows anyone to run your application in their environment effortlessly.
 - 𝟓. 𝐑𝐮𝐧 𝐭𝐡𝐞 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫: Launch a container from your image using the 𝐝𝐨𝐜𝐤𝐞𝐫 𝐫𝐮𝐧 command. This creates an isolated environment where your application can run consistently across different systems.
+-
+-
+-
 
-![imperative vs Declarative ks8 configuartion!](https://github.com/tisanbako/Docker-K8S/blob/main/images/imperative.gif) 
 - 𝗜𝗺𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝘃𝘀. 𝗗𝗲𝗰𝗹𝗮𝗿𝗮𝘁𝗶𝘃𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀: 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵𝗲𝘀
+![imperative vs Declarative ks8 configuartion!](https://github.com/tisanbako/Docker-K8S/blob/main/images/imperative.gif) 
+
 
 In the world of Kubernetes, managing resources effectively is key. Two primary methods are used: imperative and declarative. Here’s a quick breakdown to help navigate these approaches:
 
