@@ -6,6 +6,6 @@ metadata:
   name: redis
 spec:
   containers:
-  - image: rediss
+  - image: redis
     name: redis
     
