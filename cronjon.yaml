@@ -1,4 +1,4 @@
-#this cronjob will pull the busybox image, run the commans and print Hello from the Kubernetes cluster
+#this cronjob will pull the busybox image, run the commands and print Hello from the Kubernetes cluster
 apiVersion: batch/v1
 kind: CronJob
 metadata:
